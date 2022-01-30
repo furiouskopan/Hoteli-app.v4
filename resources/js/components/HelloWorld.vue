@@ -59,12 +59,20 @@
       <!-- <img :src="require(`@/assets/img/hotels/${hotel.img}.jpg`)" class="hotel-card__img" alt="Cinque Terre"> -->
     </div>
   </div>
-  
+   <p>Dorem ipsum dolor sit amet consectetur adipisicing elit. Enim vel asperiores minus dicta cumque, consequuntur quia incidunt aliquid eligendi repellendus sunt, doloremque, quidem explicabo ratione corporis excepturi nam sint omnis accusamus commodi animi! Perspiciatis reprehenderit nisi exercitationem velit voluptatum et dolorum magni sed, quod, aspernatur eveniet culpa beatae. Tempore omnis facere dolorum similique necessitatibus totam assumenda debitis laboriosam ipsa sunt! Labore aliquid vero sint fugiat dicta explicabo eius eveniet quisquam vitae maiores aliquam dolorem non perferendis culpa, tempore laborum, error iure quod animi quia sit reiciendis magni odit. Eligendi numquam culpa nisi perspiciatis ipsam in ad totam cumque vitae? Iste repellendus cupiditate nesciunt aliquam quod labore, veritatis, pariatur deserunt magnam dolorum impedit harum ad quibusdam, placeat optio corrupti voluptatum reprehenderit quia consequatur? Iste consequuntur dignissimos voluptatem maxime impedit consequatur eaque, quidem odit autem ab facilis veniam inventore totam aspernatur quam magnam provident tempora aliquam molestias iure amet. Sint itaque, ab fugiat, mollitia quo excepturi ullam aliquid similique quae minus eius molestias natus blanditiis totam officia laudantium dignissimos quidem iste laboriosam ea tenetur libero modi consequatur. Tempore, in velit recusandae maiores vitae, est ipsum illum neque ducimus iste ullam quidem, mollitia ipsam voluptatibus! Ratione, ipsam! Quisquam voluptatibus cupiditate porro aliquid magni explicabo laborum velit, similique voluptate in quas eos totam incidunt quibusdam accusamus necessitatibus dolor nam et, itaque nisi iusto eaque eveniet? Ratione, alias commodi qui ut sit dolor id, iusto perspiciatis velit accusantium minima architecto? Modi quisquam provident reprehenderit, soluta expedita facere dolore maiores rem dicta! At, fuga error itaque exercitationem laudantium culpa dignissimos cum molestias ipsa architecto inventore quam? Quasi sunt tempora aperiam sed esse provident ipsum accusantium nihil magni, harum, cum eaque est voluptates necessitatibus minus recusandae, quod cupiditate? Voluptatum error, quae ipsum minima saepe placeat eaque libero eum, aspernatur odit nostrum impedit repellat veniam accusamus! Aspernatur provident facilis libero vitae quo vero iste, adipisci aliquid. Incidunt magni excepturi nesciunt, omnis ad quos ratione voluptatem nobis veniam sunt ea dolores soluta unde deleniti tempore laborum iusto non repudiandae aliquam debitis consequuntur delectus distinctio voluptates. Distinctio repellendus esse omnis animi aperiam minus temporibus ducimus excepturi autem rem corrupti, eligendi totam maiores! Nemo ad cum voluptatum! Tenetur incidunt molestias suscipit facere eaque labore maiores atque sint, exercitationem nesciunt doloremque voluptate ad. Nisi voluptas incidunt, aliquid eveniet quod ut nostrum. Nihil praesentium quisquam architecto porro expedita inventore fuga excepturi neque libero ipsam eaque officiis necessitatibus perspiciatis eveniet numquam quas, culpa iusto magni, explicabo voluptas debitis animi est in ullam? Aliquam aperiam voluptatibus quas animi laudantium tenetur sequi perspiciatis corrupti officia nisi perferendis nesciunt architecto, et placeat, quod nulla earum. Dicta ipsum dignissimos autem aut praesentium voluptate aliquid quis id impedit similique provident fuga mollitia, optio vel laudantium, nemo consequuntur placeat quidem at distinctio magni consequatur? Laborum, provident! Molestiae et velit dignissimos aliquid magnam nemo enim iste fuga inventore pariatur necessitatibus tempora maxime assumenda, mollitia ex vel qui quas expedita, suscipit exercitationem laudantium a deserunt. Excepturi eveniet corporis magnam laboriosam officiis natus nostrum laudantium repellendus aperiam ex incidunt fugit, ipsam illum culpa minima. Voluptates natus reprehenderit excepturi ex dolor, placeat nemo commodi sequi fugiat aut provident similique repellendus qui dolore! Unde, repudiandae qui. Rerum voluptates asperiores perspiciatis pariatur nam maxime quisquam labore assumenda quae consequuntur facere fuga quibusdam mollitia, doloribus, dolorem exercitationem aperiam voluptatibus voluptatem tenetur! Commodi, deserunt impedit. Repellat voluptas voluptatibus suscipit! Modi, sunt? Magnam maiores doloribus nostrum? Exercitationem odio necessitatibus libero dolore at earum iste praesentium, suscipit ut obcaecati. Laudantium, reprehenderit voluptatem. Enim doloremque fuga facilis! Odio iste aperiam doloribus quisquam expedita ex cumque odit laborum. Tenetur totam atque reiciendis velit! Vel accusamus, deleniti aut in distinctio est corrupti. Aliquam ratione fugit quas id obcaecati inventore saepe possimus asperiores sapiente numquam aperiam error molestiae, dolorem cum doloribus quasi. Minus, eligendi quasi? Non consectetur consequuntur numquam debitis fugit illo facilis. Impedit quibusdam eveniet aspernatur facilis corporis deleniti, cupiditate voluptates velit, recusandae eum dolor voluptate porro, assumenda excepturi? Voluptatem ratione debitis in ipsa! Placeat culpa praesentium incidunt iure, recusandae, voluptate vero non id enim suscipit quasi aspernatur asperiores minus dolore. Voluptatibus id labore aperiam unde tempora quod enim excepturi deserunt saepe soluta cupiditate porro ipsum explicabo molestias reiciendis recusandae eaque provident, eum animi expedita cumque, quis quae. Quisquam ipsa facilis quia repellat?</p>
 </div>
- <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
 </div>
+
+<!-- Footer  -->
+
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+     © 2022 Универзитет Гоце Делчев Штип
+  <a class="text-dark" href="https://www.ugd.edu.mk/">UGD</a>
+  <p>Aвтори: Мартин Танчев 102422, Ѓорги Костов 102423</p>     
+  </div>
+ </footer>
+
 </template>
 
 <script>
@@ -85,5 +93,12 @@ export default {
     object-fit: cover;
   }
 }
-
+footer {
+    background: rgba(150, 150, 150, 0.5);
+    width: 100%;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    left: 0;    
+    }
 </style>

@@ -22494,7 +22494,7 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Navbar  "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", {
     "class": "navbar navbar-expand-lg navbar-dark bg-dark"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "container"
@@ -22595,21 +22595,31 @@ var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
   }, "Card link"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: "#",
     "class": "card-link"
-  }, "Another link"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <img :src=\"require(`@/assets/img/hotels/${hotel.img}.jpg`)\" class=\"hotel-card__img\" alt=\"Cinque Terre\"> ")])])], -1
+  }, "Another link"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <img :src=\"require(`@/assets/img/hotels/${hotel.img}.jpg`)\" class=\"hotel-card__img\" alt=\"Cinque Terre\"> ")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Dorem ipsum dolor sit amet consectetur adipisicing elit. Enim vel asperiores minus dicta cumque, consequuntur quia incidunt aliquid eligendi repellendus sunt, doloremque, quidem explicabo ratione corporis excepturi nam sint omnis accusamus commodi animi! Perspiciatis reprehenderit nisi exercitationem velit voluptatum et dolorum magni sed, quod, aspernatur eveniet culpa beatae. Tempore omnis facere dolorum similique necessitatibus totam assumenda debitis laboriosam ipsa sunt! Labore aliquid vero sint fugiat dicta explicabo eius eveniet quisquam vitae maiores aliquam dolorem non perferendis culpa, tempore laborum, error iure quod animi quia sit reiciendis magni odit. Eligendi numquam culpa nisi perspiciatis ipsam in ad totam cumque vitae? Iste repellendus cupiditate nesciunt aliquam quod labore, veritatis, pariatur deserunt magnam dolorum impedit harum ad quibusdam, placeat optio corrupti voluptatum reprehenderit quia consequatur? Iste consequuntur dignissimos voluptatem maxime impedit consequatur eaque, quidem odit autem ab facilis veniam inventore totam aspernatur quam magnam provident tempora aliquam molestias iure amet. Sint itaque, ab fugiat, mollitia quo excepturi ullam aliquid similique quae minus eius molestias natus blanditiis totam officia laudantium dignissimos quidem iste laboriosam ea tenetur libero modi consequatur. Tempore, in velit recusandae maiores vitae, est ipsum illum neque ducimus iste ullam quidem, mollitia ipsam voluptatibus! Ratione, ipsam! Quisquam voluptatibus cupiditate porro aliquid magni explicabo laborum velit, similique voluptate in quas eos totam incidunt quibusdam accusamus necessitatibus dolor nam et, itaque nisi iusto eaque eveniet? Ratione, alias commodi qui ut sit dolor id, iusto perspiciatis velit accusantium minima architecto? Modi quisquam provident reprehenderit, soluta expedita facere dolore maiores rem dicta! At, fuga error itaque exercitationem laudantium culpa dignissimos cum molestias ipsa architecto inventore quam? Quasi sunt tempora aperiam sed esse provident ipsum accusantium nihil magni, harum, cum eaque est voluptates necessitatibus minus recusandae, quod cupiditate? Voluptatum error, quae ipsum minima saepe placeat eaque libero eum, aspernatur odit nostrum impedit repellat veniam accusamus! Aspernatur provident facilis libero vitae quo vero iste, adipisci aliquid. Incidunt magni excepturi nesciunt, omnis ad quos ratione voluptatem nobis veniam sunt ea dolores soluta unde deleniti tempore laborum iusto non repudiandae aliquam debitis consequuntur delectus distinctio voluptates. Distinctio repellendus esse omnis animi aperiam minus temporibus ducimus excepturi autem rem corrupti, eligendi totam maiores! Nemo ad cum voluptatum! Tenetur incidunt molestias suscipit facere eaque labore maiores atque sint, exercitationem nesciunt doloremque voluptate ad. Nisi voluptas incidunt, aliquid eveniet quod ut nostrum. Nihil praesentium quisquam architecto porro expedita inventore fuga excepturi neque libero ipsam eaque officiis necessitatibus perspiciatis eveniet numquam quas, culpa iusto magni, explicabo voluptas debitis animi est in ullam? Aliquam aperiam voluptatibus quas animi laudantium tenetur sequi perspiciatis corrupti officia nisi perferendis nesciunt architecto, et placeat, quod nulla earum. Dicta ipsum dignissimos autem aut praesentium voluptate aliquid quis id impedit similique provident fuga mollitia, optio vel laudantium, nemo consequuntur placeat quidem at distinctio magni consequatur? Laborum, provident! Molestiae et velit dignissimos aliquid magnam nemo enim iste fuga inventore pariatur necessitatibus tempora maxime assumenda, mollitia ex vel qui quas expedita, suscipit exercitationem laudantium a deserunt. Excepturi eveniet corporis magnam laboriosam officiis natus nostrum laudantium repellendus aperiam ex incidunt fugit, ipsam illum culpa minima. Voluptates natus reprehenderit excepturi ex dolor, placeat nemo commodi sequi fugiat aut provident similique repellendus qui dolore! Unde, repudiandae qui. Rerum voluptates asperiores perspiciatis pariatur nam maxime quisquam labore assumenda quae consequuntur facere fuga quibusdam mollitia, doloribus, dolorem exercitationem aperiam voluptatibus voluptatem tenetur! Commodi, deserunt impedit. Repellat voluptas voluptatibus suscipit! Modi, sunt? Magnam maiores doloribus nostrum? Exercitationem odio necessitatibus libero dolore at earum iste praesentium, suscipit ut obcaecati. Laudantium, reprehenderit voluptatem. Enim doloremque fuga facilis! Odio iste aperiam doloribus quisquam expedita ex cumque odit laborum. Tenetur totam atque reiciendis velit! Vel accusamus, deleniti aut in distinctio est corrupti. Aliquam ratione fugit quas id obcaecati inventore saepe possimus asperiores sapiente numquam aperiam error molestiae, dolorem cum doloribus quasi. Minus, eligendi quasi? Non consectetur consequuntur numquam debitis fugit illo facilis. Impedit quibusdam eveniet aspernatur facilis corporis deleniti, cupiditate voluptates velit, recusandae eum dolor voluptate porro, assumenda excepturi? Voluptatem ratione debitis in ipsa! Placeat culpa praesentium incidunt iure, recusandae, voluptate vero non id enim suscipit quasi aspernatur asperiores minus dolore. Voluptatibus id labore aperiam unde tempora quod enim excepturi deserunt saepe soluta cupiditate porro ipsum explicabo molestias reiciendis recusandae eaque provident, eum animi expedita cumque, quis quae. Quisquam ipsa facilis quia repellat?")])], -1
   /* HOISTED */
   );
 });
 
 var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-3xl font-bold underline"
-  }, " Hello world! ", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", {
+    "class": "bg-light text-center text-lg-start"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "text-center p-3",
+    style: {
+      "background-color": "rgba(0, 0, 0, 0.2)"
+    }
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" © 2022 Универзитет Гоце Делчев Штип "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "class": "text-dark",
+    href: "https://www.ugd.edu.mk/"
+  }, "UGD"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Aвтори: Мартин Танчев 102422, Ѓорги Костов 102423")])], -1
   /* HOISTED */
   );
 });
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Navbar  "), _hoisted_1, _hoisted_2]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer  "), _hoisted_2], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -27746,7 +27756,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".hotel-card__img[data-v-1d11828b] {\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".hotel-card__img[data-v-1d11828b] {\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\nfooter[data-v-1d11828b] {\n  background: rgba(150, 150, 150, 0.5);\n  width: 100%;\n  height: 60px;\n  position: relative;\n  bottom: 0;\n  left: 0;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -45647,7 +45657,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _HelloWorld_vue_vue_type_template_id_1d11828b_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HelloWorld.vue?vue&type=template&id=1d11828b&scoped=true */ "./resources/js/components/HelloWorld.vue?vue&type=template&id=1d11828b&scoped=true");
 /* harmony import */ var _HelloWorld_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HelloWorld.vue?vue&type=script&lang=js */ "./resources/js/components/HelloWorld.vue?vue&type=script&lang=js");
 /* harmony import */ var _HelloWorld_vue_vue_type_style_index_0_id_1d11828b_scoped_true_lang_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./HelloWorld.vue?vue&type=style&index=0&id=1d11828b&scoped=true&lang=scss */ "./resources/js/components/HelloWorld.vue?vue&type=style&index=0&id=1d11828b&scoped=true&lang=scss");
-/* harmony import */ var C_Users_user_Documents_GitHub_Hoteli_app_v4_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_user_Documents_GitHub_Hoteli_app_v3_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -45655,7 +45665,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,C_Users_user_Documents_GitHub_Hoteli_app_v4_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_HelloWorld_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_HelloWorld_vue_vue_type_template_id_1d11828b_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-1d11828b"],['__file',"resources/js/components/HelloWorld.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_user_Documents_GitHub_Hoteli_app_v3_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_HelloWorld_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_HelloWorld_vue_vue_type_template_id_1d11828b_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-1d11828b"],['__file',"resources/js/components/HelloWorld.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -45678,7 +45688,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Home_vue_vue_type_template_id_f2b6376c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=f2b6376c */ "./resources/js/components/Home.vue?vue&type=template&id=f2b6376c");
 /* harmony import */ var _Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js */ "./resources/js/components/Home.vue?vue&type=script&lang=js");
 /* harmony import */ var _Home_vue_vue_type_style_index_0_id_f2b6376c_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&id=f2b6376c&lang=css */ "./resources/js/components/Home.vue?vue&type=style&index=0&id=f2b6376c&lang=css");
-/* harmony import */ var C_Users_user_Documents_GitHub_Hoteli_app_v4_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_user_Documents_GitHub_Hoteli_app_v3_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -45686,7 +45696,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,C_Users_user_Documents_GitHub_Hoteli_app_v4_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_f2b6376c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Home.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_user_Documents_GitHub_Hoteli_app_v3_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_f2b6376c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Home.vue"]])
 /* hot reload */
 if (false) {}
 
