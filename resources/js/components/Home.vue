@@ -27,7 +27,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
     
   #text{
@@ -43,9 +42,9 @@ export default {
   hr{
     border-top: 3px solid rgb(0, 0, 0)
     }
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  ::placeholder { 
     color: rgba(0, 0, 0, 0.753);
-    opacity: 1; /* Firefox */
+    opacity: 1; 
   }
 
 </style>
