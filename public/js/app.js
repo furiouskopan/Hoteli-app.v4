@@ -22495,7 +22495,7 @@ var _withScopeId = function _withScopeId(n) {
 
 var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Navbar  "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", {
-    "class": "navbar navbar-expand-lg navbar-dark bg-dark"
+    "class": "navbar navbar-expand-lg navbar-default bg-dark"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "container"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
@@ -22581,7 +22581,23 @@ var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
     "fill-rule": "evenodd",
     d: "M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
-  })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" | Log in")])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Cards "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" | Log in")])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Cards "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Searchbar "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "container"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "row height d-flex justify-content-center align-items-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-md-8"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "search"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa fa-search"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    type: "text",
+    "class": "form-control",
+    placeholder: "Пребарувајте хотели"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    "class": "btn btn-primary"
+  }, "Search")])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hotel-card card ms-5 me-5 mt-4"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "card-body"
@@ -27787,8 +27803,9 @@ __webpack_require__.r(__webpack_exports__);
 // Imports
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".hotel-card__img[data-v-1d11828b] {\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\nfooter[data-v-1d11828b] {\n  background: rgba(150, 150, 150, 0.5);\n  width: 100%;\n  position: relative;\n}\n.card-body[data-v-1d11828b] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n}\n.card-body[data-v-1d11828b]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n}\n@-webkit-keyframes sheen-1d11828b {\n0% {\n    transform: skewY(-45deg) translateX(0);\n}\n100% {\n    transform: skewY(-45deg) translateX(12.5em);\n}\n}\n@keyframes sheen-1d11828b {\n0% {\n    transform: skewY(-45deg) translateX(0);\n}\n100% {\n    transform: skewY(-45deg) translateX(12.5em);\n}\n}\n.wrapper[data-v-1d11828b] {\n  display: flex;\n  position: absolute;\n  top: 50%;\n  left: 91%;\n  transform: translate(-50%, -50%);\n}\n.button_book[data-v-1d11828b] {\n  padding: 0.65em 1em;\n  text-decoration: none;\n  color: #2194E0;\n  border: 2px solid #2194E0;\n  font-size: 18px;\n  display: inline-block;\n  border-radius: 0.4em;\n  transition: all 0.2s ease-in-out;\n  position: relative;\n  overflow: hidden;\n}\n.button_book[data-v-1d11828b]:before {\n  content: \"\";\n  background-color: rgba(255, 255, 255, 0.5);\n  height: 100%;\n  width: 3em;\n  display: block;\n  position: absolute;\n  top: 0;\n  left: -4.5em;\n  transform: skewX(-45deg) translateX(0);\n  transition: none;\n}\n.button_book[data-v-1d11828b]:hover {\n  background-color: #2194E0;\n  color: #fff;\n  border-bottom: 4px solid #1977b5;\n}\n.button_book[data-v-1d11828b]:hover:before {\n  transform: skewX(-45deg) translateX(13.5em);\n  transition: all 0.5s ease-in-out;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".hotel-card__img[data-v-1d11828b] {\n  height: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\nfooter[data-v-1d11828b] {\n  background: rgba(150, 150, 150, 0.5);\n  width: 100%;\n  position: relative;\n}\n.card-body[data-v-1d11828b] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n}\n.card-body[data-v-1d11828b]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n}\n@-webkit-keyframes sheen-1d11828b {\n0% {\n    transform: skewY(-45deg) translateX(0);\n}\n100% {\n    transform: skewY(-45deg) translateX(12.5em);\n}\n}\n@keyframes sheen-1d11828b {\n0% {\n    transform: skewY(-45deg) translateX(0);\n}\n100% {\n    transform: skewY(-45deg) translateX(12.5em);\n}\n}\n.wrapper[data-v-1d11828b] {\n  display: flex;\n  position: absolute;\n  top: 50%;\n  left: 91%;\n  transform: translate(-50%, -50%);\n}\n.button_book[data-v-1d11828b] {\n  padding: 0.65em 1em;\n  text-decoration: none;\n  color: #2194E0;\n  border: 2px solid #2194E0;\n  font-size: 18px;\n  display: inline-block;\n  border-radius: 0.4em;\n  transition: all 0.2s ease-in-out;\n  position: relative;\n  overflow: hidden;\n}\n.button_book[data-v-1d11828b]:before {\n  content: \"\";\n  background-color: rgba(255, 255, 255, 0.5);\n  height: 100%;\n  width: 3em;\n  display: block;\n  position: absolute;\n  top: 0;\n  left: -4.5em;\n  transform: skewX(-45deg) translateX(0);\n  transition: none;\n}\n.button_book[data-v-1d11828b]:hover {\n  background-color: #2194E0;\n  color: #fff;\n  border-bottom: 4px solid #1977b5;\n}\n.button_book[data-v-1d11828b]:hover:before {\n  transform: skewX(-45deg) translateX(13.5em);\n  transition: all 0.5s ease-in-out;\n}\nbody[data-v-1d11828b] {\n  background-color: #eee;\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n}\n.height[data-v-1d11828b] {\n  height: 15vh;\n}\n.search[data-v-1d11828b] {\n  position: relative;\n}\n.search input[data-v-1d11828b] {\n  height: 60px;\n  text-indent: 25px;\n  border: 2px solid #d6d4d4;\n}\n.search input[data-v-1d11828b]:focus {\n  box-shadow: none;\n  border: 2px solid blue;\n}\n.search .fa-search[data-v-1d11828b] {\n  position: absolute;\n  top: 20px;\n  left: 16px;\n}\n.search button[data-v-1d11828b] {\n  position: absolute;\n  top: 5px;\n  right: 5px;\n  height: 50px;\n  width: 110px;\n  background: #0d6efd;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
