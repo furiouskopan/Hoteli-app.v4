@@ -12,7 +12,7 @@
           <div class="d-grid gap-2">
           <button class="btn btn-primary mt-2" type="button">Најава</button>
         </div>
-        <a href="#" style="color: #062687">Креирај нов профил</a>   
+        <a href="/registration" style="color: #062687">Креирај нов профил</a>   
         </div>
     </div>
     
