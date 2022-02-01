@@ -12,11 +12,7 @@
     <title>{{env('APP_NAME')}}</title>
 </head>
 <body class="antialiased">
-    <div id="app1">
-    <div>
-        <home/> 
-    </div>
-    </div>
+
 
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
