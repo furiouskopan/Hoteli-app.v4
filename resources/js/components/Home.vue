@@ -1,50 +1,152 @@
 <template>
-    <div
-     style="background-image: url('https://i.redd.it/umhuar4xaxd81.jpg');
-            height: 100vh; background-size: cover">
-            
-    <div class="d-flex justify-content-center aling-items-center" id="login_form">
-        <div id="text" style="text-align:center" ><h1>Најавете се:</h1><hr>
-          <form action="">
-            <input type="text" placeholder="Корисничко име" class="transparent-input" style="width:249px" > <br>
-            <input type="password" placeholder="Лозинка" class="transparent-input" style="width:249px">
-          </form>
-          <div class="d-grid gap-2">
-          <button class="btn btn-primary mt-2" type="button">Најава</button>
-        </div>
-        <a href="/registration" style="color: #062687">Креирај нов профил</a>   
-        </div>
+<div style="background-image: url('https://i.redd.it/umhuar4xaxd81.jpg');height: 100vh; background-size: cover">
+    <div class="vue-template">
+        <form style="aign-itms: center">
+            <h3>Sign In</h3>
+
+            <div class="form-group ms-5">
+                <label>Email address</label>
+                <input type="email" class="form-control form-control-lg" />
+            </div>
+
+            <div class="form-group ms-5">
+                <label>Password</label>
+                <input type="password" class="form-control form-control-lg" />
+            </div>
+
+            <button type="submit" class="btn btn-dark btn-lg btn-block">Sign In</button>
+
+            <p class="forgot-password text-right mt-2 mb-4 ms-5">
+                <router-link to="/forgot-password">Forgot password ?</router-link>
+            </p>
+
+        </form>
     </div>
-    
 </div>
 </template>
 
 <script>
-
-
-export default {
- 
-}
+    export default {
+        data() {
+            return {}
+        }
+    }
 </script>
+<style scoped>    
+* {
+  box-sizing: border-box;
+}
 
-<style>
-    
-  #text{
-    padding-top: 30vh;
-  }
-  input.transparent-input{
-    background-color:rgba(0,0,0,0) !important;
-    border:none !important;     
-  }
-  textarea:focus, input:focus{
-    outline: none;
-    }
-  hr{
-    border-top: 3px solid rgb(0, 0, 0)
-    }
-  ::placeholder { 
-    color: rgba(0, 0, 0, 0.753);
-    opacity: 1; 
-  }
+body {
+  background: #2554FF !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+}
 
+body,
+html,
+.App,
+.vue-template,
+.vertical-center {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.vertical-center {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;    
+}
+
+.inner-block {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.vertical-center .form-control:focus {
+  border-color: #2554FF;
+  box-shadow: none;
+}
+
+.vertical-center h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7a7a7a;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #2554FF;
+}
+
+.social-icons {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #222222;
+}
+
+.social-icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-icons ul li {
+  display: inline-block;
+  zoom: 1;
+  width: 65px;
+  vertical-align: middle;
+  border: 1px solid #e3e8f9;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5px;
+  background: #f4f6ff;
+}
+
+.social-icons ul li a {
+  display: block;
+  font-size: 1.4em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons ul li a i {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.social-icons ul li a:focus i,
+.social-icons ul li a:active i {
+  transition: none;
+  color: #222222;
+}
 </style>

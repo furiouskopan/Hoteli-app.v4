@@ -10,15 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
 
-    <title>{{env('APP_NAME')}}</title>
+    <title>Hoteli</title>
 </head>
-<body class="antialiased">
-    <div id="app">
-    <div>
-        <hello-world/> 
-    </div>
-    </div>
-
-    <script src="{{ mix('js/app.js') }}"></script>
+<body>
+<div id="app">
+    <hello-world/> 
+</div>
+<style>
+    body,#app{
+        height:100vh;
+    }
+</style>
+<script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
