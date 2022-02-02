@@ -37,6 +37,7 @@
                         </form>
                     </div>
                 </div>
+                <a href="/register">Don't have an account?</a>
             </div>
         </div>
 </main>

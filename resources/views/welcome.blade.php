@@ -14,7 +14,7 @@
 </head>
 <body>
 <div id="app">
-    <hello-world/> 
+    <homepage/> 
 </div>
 <style>
     body,#app{

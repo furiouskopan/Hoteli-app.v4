@@ -17,10 +17,6 @@ use App\Http\Controllers\AuthController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/registration', function (){
-    return view('/auth/register');
-});
-
 
 Auth::routes();
 
