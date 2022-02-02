@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CustomAuthController;
+use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\AuthController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,11 +21,17 @@ Route::get('/registration', function (){
     return view('/auth/register');
 });
 
+
 Auth::routes();
 
 Route::get('/{any}', 'App\Http\Controllers\PagesController@index')->where('any', '.*'); 
-Route::get('dashboard', [CustomAuthController::class, 'dashboard']); 
-Route::get('login', [CustomAuthController::class, 'index'])->name('login');
-Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
-Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
-Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+Route::get('/login', [AuthController::class, 'index'])->name('login');
+Route::post('/custom-signin', [AuthController::class, 'createSignin'])->name('signin.custom');
+
+
+Route::get('/register', [AuthController::class, 'signup'])->name('register');
+Route::post('/create-user', [AuthController::class, 'customSignup'])->name('user.registration');
+
+
+Route::get('/dashboard', [AuthController::class, 'dashboardView'])->name('dashboard');
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
