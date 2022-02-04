@@ -1,7 +1,7 @@
 <template>
 <!-- Navbar  -->
 <div>
-  <div class="bg-image obj-fit-cover" style="background-attachment: fixed; background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg1.advisor.travel%2F1200x630px-Matka_Canyon_12.jpg&f=1&nofb=1'); height: 100vh; background-size: cover; position: fixed; width: 100%; z-index: 10;">
+  <div class="bg-image obj-fit-cover" style="background-attachment: fixed; overflow-x: scroll; overflow-x: hidden; background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg1.advisor.travel%2F1200x630px-Matka_Canyon_12.jpg&f=1&nofb=1'); height: 100vh; background-size: cover;  ">
     <div> 
       <nav class="navbar navbar-expand-lg navbar-default bg-dark">
         <div class="container">

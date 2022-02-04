@@ -1,9 +1,6 @@
 <template>
     <div>
-     
-
-
-    <div class="registration-form">
+   <div class="registration-form">
         <form @submit.prevent="handleSubmit">
             <div class="form-icon">
                 <span><i class="icon icon-user"></i></span>
