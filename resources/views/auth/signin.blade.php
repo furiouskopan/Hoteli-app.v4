@@ -1,4 +1,4 @@
-@extends('app')
+<!-- @extends('app')
 
 @section('content')
 <main class="cotainer mt-5">
@@ -41,11 +41,11 @@
             </div>
         </div>
 </main>
-@endsection
+@endsection -->
 
 <!-- The Real Deal 👇 -->
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -100,4 +100,4 @@
     
     </style>
 </body>
-</html> -->
+</html> 
