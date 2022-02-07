@@ -17,6 +17,9 @@ use App\Http\Controllers\AuthController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/contact', function(){
+    return view('contact');
+});
 
 Auth::routes();
 
@@ -31,3 +34,4 @@ Route::post('/create-user', [AuthController::class, 'customSignup'])->name('user
 
 Route::get('/dashboard', [AuthController::class, 'dashboardView'])->name('dashboard');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+

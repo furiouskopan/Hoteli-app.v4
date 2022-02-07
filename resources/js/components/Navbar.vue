@@ -12,18 +12,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item" v-for="item in items" :key="item.id">
-                        <a class="nav-link active" href="#">{{item.message}}</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/home">Home</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Hotels</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li> -->
+                        <a class="nav-link" href="/contact">Contact Us</a>
+                    </li>
                 </ul>
                 <div class="d-flex">
                   <a href="/login">
@@ -77,7 +77,6 @@
 export default  {
  data(){
    return {
-     items: [{message: 'Home'}, {message: 'Hotels'}, {message: 'About Us'}, {message: 'Contact Us'}]
    }
  }
 }
@@ -93,11 +92,6 @@ export default  {
     
   }
 }
-footer {
-    background: rgba(150, 150, 150, 0.5);
-    width: 100%;
-    position: relative;
-    }
 .card-body{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -160,49 +154,5 @@ $color: #2194E0;
   }
 }
 
-// Searchbar
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
-
-body {
-    background-color: #eee;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-}
-
-.height {
-    height: 15vh;
-}
-
-.search {
-    position: relative;
-    // box-shadow: 0 0 40px rgba(51, 51, 51, .1)
-}
-
-.search input {
-    height: 60px;
-    text-indent: 25px;
-    border: 2px solid #d6d4d4
-}
-
-.search input:focus {
-    box-shadow: none;
-    border: 2px solid blue
-}
-
-.search .fa-search {
-    position: absolute;
-    top: 20px;
-    left: 16px
-}
-
-.search button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    height: 50px;
-    width: 110px;
-    background: #0d6efd
-}
 </style>
 

@@ -12,13 +12,9 @@
     <title>Hoteli</title>
 </head>
 <body>
-<div id="app">
-    <home></home>
+<div id="app3">
+    <contact></contact>
 </div>
-
-<style>
-
-</style>
 <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
