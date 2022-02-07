@@ -1,4 +1,4 @@
-@extends('app')
+<!-- @extends('app')
 
 @section('content')
 <main class="cotainer mt-5">
@@ -41,11 +41,11 @@
             </div>
         </div>
 </main>
-@endsection
+@endsection -->
 
 <!-- The Real Deal 👇 -->
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -69,7 +69,7 @@
           @if ($errors->has('email'))
                 <span class="text-danger">{{ $errors->first('email') }}</span>
             @endif
-          <input type="password" name="password" id="password" class="transparent-input" style="width:249px"placeholder="Лозинка"></form>
+          <input type="password" name="password" id="password" class="transparent-input" placeholder="Лозинка"></form>
           @if ($errors->has('password'))
                 <span class="text-danger">{{ $errors->first('password') }}</span>
             @endif
@@ -100,4 +100,4 @@
     
     </style>
 </body>
-</html> -->
+</html>
