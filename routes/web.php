@@ -13,8 +13,10 @@ use App\Http\Controllers\AuthController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
+    return redirect('login');
+});
+Route::get('/home', function(){
     return view('welcome');
 });
 Route::get('/contact', function(){
@@ -31,7 +33,5 @@ Route::post('/custom-signin', [AuthController::class, 'createSignin'])->name('si
 Route::get('/register', [AuthController::class, 'signup'])->name('register');
 Route::post('/create-user', [AuthController::class, 'customSignup'])->name('user.registration');
 
-
-Route::get('/dashboard', [AuthController::class, 'dashboardView'])->name('dashboard');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 

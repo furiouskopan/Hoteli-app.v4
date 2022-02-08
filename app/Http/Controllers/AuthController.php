@@ -24,7 +24,7 @@ class AuthController extends Controller
         ]);
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('dashboard')
+            return redirect()->intended('welcome')
                         ->withSuccess('Logged-in');
         }
         return redirect("login")->withSuccess('Credentials are wrong.');
@@ -46,7 +46,7 @@ class AuthController extends Controller
         ]);
         $data = $request->all();
         $check = $this->createUser($data);
-        return redirect("dashboard")->withSuccess('Successfully logged-in!');
+        return redirect("welcome")->withSuccess('Successfully logged-in!');
     }
 
 
@@ -63,7 +63,7 @@ class AuthController extends Controller
     public function dashboardView()
     {
         if(Auth::check()){
-            return view('auth.dashboard');
+            return view('auth.welcome');
         }
         return redirect("login")->withSuccess('Access is not permitted');
     }
