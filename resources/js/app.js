@@ -1,12 +1,19 @@
-import { createApp } from 'vue'
-import Home from './components/Home/Main.vue';
-import Login from './components/Login.vue';
-import Register from './components/Register.vue';
-import Contact from './components/Home/Contact.vue';
+import Vue from 'vue'
+import { BootstrapVue } from 'bootstrap-vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
-const app = createApp({});
-app.component('home', Home).mount('#app');
-app.component('login', Login).mount('#app1');
-app.component('register', Register).mount('#app2');
-app.component('contact', Contact).mount('#app3');
+import Reservation from './components/Hotels/views/Reservation.vue'
+const app = new Vue({
+    el: '#app',
+    components: { Reservation }
+});
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import "./components/Hotels/assets/scss/main.scss"
+Vue.use(VueAxios, axios)
+
+Vue.use(BootstrapVue)
 require('./bootstrap');
+window.Vue = require('vue').default;
